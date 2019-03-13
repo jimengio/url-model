@@ -1,0 +1,11 @@
+
+src/
+webpack/
+.editorconfig
+.prettierrc
+template.ejs
+tsconfig.json
+yarn.lock
+test/
+coverage/
+jest.config.js

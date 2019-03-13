@@ -1,0 +1,24 @@
+{
+  "name": "@jimengio/url-model",
+  "version": "0.0.1-a1",
+  "description": "",
+  "main": "./lib/url-model.js",
+  "types": "./lib/url-model.d.ts",
+  "scripts": {
+    "compile": "tsc -d url/*.ts --target es5 --outDir lib/",
+    "prepublish": "yarn compile",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "jest-environment-jsdom": "^24.5.0",
+    "jest-environment-jsdom-global": "^1.2.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {}
+}
