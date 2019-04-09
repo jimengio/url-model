@@ -5,7 +5,7 @@
   "main": "./lib/url-model.js",
   "types": "./lib/url-model.d.ts",
   "scripts": {
-    "compile": "tsc -d url/*.ts --target es5 --outDir lib/",
+    "compile": "tsc -d --project tsconfig-compile.json --outDir lib/",
     "prepublish": "yarn compile",
     "test": "jest"
   },
@@ -14,11 +14,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.11",
-    "jest": "^24.5.0",
-    "jest-environment-jsdom": "^24.5.0",
+    "@types/node": "^11.13.2",
+    "jest": "^24.7.1",
+    "jest-environment-jsdom": "^24.7.1",
     "jest-environment-jsdom-global": "^1.2.0",
-    "ts-jest": "^24.0.0",
-    "typescript": "^3.3.3333"
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.2"
   },
   "dependencies": {}
 }
