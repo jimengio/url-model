@@ -11,3 +11,5 @@ webpack/dll/*
 *.log
 
 /coverage
+
+lib/
